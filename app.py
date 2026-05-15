@@ -6,7 +6,7 @@ import time
 # Your specific Firebase API endpoint
 FIREBASE_URL = "https://rt-security-system-default-rtdb.europe-west1.firebasedatabase.app/sensors.json"
 
-st.set_page_config(page_title="ROV / Security Dashboard", page_icon="🛡️", layout="wide")
+st.set_page_config(page_title=" Security Dashboard", page_icon="🛡️", layout="wide")
 
 st.title("🛡️ Live Security System Dashboard")
 st.markdown("Fetching real-time data from ESP32 via Firebase REST API.")
