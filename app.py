@@ -246,7 +246,7 @@ led_on          = data.get("led_on",          False)
 
 # ── Ultrasonic sensor logic ──────────────────
 if ultrasonic_cm == -1:
-    ultra_value  = "Sensor Error"
+    ultra_value  = "Out of Range"
     ultra_sub    = "Check wiring / TRIG-ECHO pins"
     ultra_status = "warning"
 elif ultrasonic_cm < 30:
